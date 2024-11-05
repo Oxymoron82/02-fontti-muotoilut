@@ -31,10 +31,17 @@ h5 {font-size: 2.2rem;}
 h6 {font-size: 2rem;}
 
 
-.strong{}
-.italic {}
+.strong{
+    font-weight: 700;
+    color: #01FFFF;
+
+}
+.italic {font-style: italic;}
+
 .marked {}
-.small {}
+.small {color: red;
+    font-size: 1rem;
+}
 .overlined{}
 .underlined {}
 .subscript {}
