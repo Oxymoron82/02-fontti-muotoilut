@@ -38,14 +38,28 @@ h6 {font-size: 2rem;}
 }
 .italic {font-style: italic;}
 
-.marked {}
+.marked {
+    color: black;
+    background-color: yellow;
+}
+
 .small {color: red;
     font-size: 1rem;
 }
-.overlined{}
-.underlined {}
-.subscript {}
-.superscript {}
+.overlined{
+    text-decoration: line-through;
+}
+.underlined {
+    text-decoration: underline;
+}
+.subscript 
+{
+    vertical-align: sub;
+    font-size: 1rem;
+}
+
+.superscript {vertical-align: super;
+font-size: 1rem;}
 
 
 
